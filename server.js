@@ -6,6 +6,6 @@ app.get('/', function(request, response){
 });
 
 app.get('/nickname', function(request, response){
-    response.send('elegant-squid);
+    response.send('elegant-squid');
 });
 app.listen(process.env.PORT || 4000);
